@@ -7,10 +7,10 @@ Local Settings for a rya_ebooks account.
 # Configuration for Twitter API
 ENABLE_TWITTER_SOURCES = True # Fetch twitter statuses as source
 ENABLE_TWITTER_POSTING = True # Tweet resulting status?
-MY_CONSUMER_KEY = 'aaaa' #Your Twitter API Consumer Key
-MY_CONSUMER_SECRET = 'aaaa' #Your Consumer Secret Key
-MY_ACCESS_TOKEN_KEY = 'aaaa' #Your Twitter API Access Token Key
-MY_ACCESS_TOKEN_SECRET = 'aaaa' #Your Access Token Secret
+MY_CONSUMER_KEY = 'lZ62tI9NIgY3rFjBGzYDzdrii' #Your Twitter API Consumer Key
+MY_CONSUMER_SECRET = '0UMQYAzjD8t56eXTRN6LMrMJxkfex1fKGI4gosBFtgnwQ9nKhN' #Your Consumer Secret Key
+MY_ACCESS_TOKEN_KEY = '4720135352-eU5Yoq4IfHEAlwYKEFV47pwvQOQgu65YCIMz3MN' #Your Twitter API Access Token Key
+MY_ACCESS_TOKEN_SECRET = 'PtyZnD0DDoEB4JanBRqv6xOSrjCFhyic9AHNkCuNUaFB1' #Your Access Token Secret
 
 # Configuration for Mastodon API
 ENABLE_MASTODON_SOURCES = False # Fetch mastodon statuses as a source?
@@ -20,7 +20,7 @@ CLIENT_CRED_FILENAME = '' # the MASTODON client secret file you created for this
 USER_ACCESS_FILENAME = '' # The MASTODON user credential file you created at installation.
 
 # Sources (Twitter, Mastodon, local text file or a web page)
-TWITTER_SOURCE_ACCOUNTS = ["account", "names"]  # A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
+TWITTER_SOURCE_ACCOUNTS = ["wheredthesodago", "names"]  # A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
 MASTODON_SOURCE_ACCOUNTS = [""] # A list, e.g. ["@user@instance.tld"]
 SOURCE_EXCLUDE = r'^$'  # Source tweets that match this regexp will not be added to the Markov chain. You might want to filter out inappropriate words for example.
 STATIC_TEST = False  # Set this to True if you want to test Markov generation from a static file instead of the API.
