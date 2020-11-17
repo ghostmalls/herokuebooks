@@ -34,7 +34,7 @@ ODDS = 0  # How often do you want this to run? 1/8 times?
 ORDER = 2  # How closely do you want this to hew to sensical? 2 is low and 4 is high.
 
 DEBUG = False  # Set this to False to start Tweeting live
-TWEET_ACCOUNT = "account_without_@"  # The name of the account you're tweeting to.
+TWEET_ACCOUNT = "wheredthesodago"  # The name of the account you're tweeting to.
 
 #Configuration for Twitter parser. TEST_SOURCE will be re-used as as the corpus location.
 TWITTER_ARCHIVE_NAME = "tweets.csv" #Name of your twitter archive
